@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Audio Streaming</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Local Audio Streaming</h1>
+    </header>
+    <div id="status">Status: Connecting...</div>
+    <div id="clients">
+        <h2>Connected Clients</h2>
+        <ul id="clientList"></ul>
+    </div>
+
+    <div id="popup">
+        <div class="popupText"><div id= "popupIp"></div> has asked to stream audio</div>
+        <div class="buttonContainer">
+            <button id="acceptButton">Accept</button>
+            <button id="rejectButton">Reject</button>
+        </div>
+    </div>
+
+    <div id="audio" style="display: none">
+        <h2>Audio</h2>
+        <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <script src="./js/client.js"></script>
+    <script src="./js/webrtc.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#status {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#clients {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#clients h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+#clientList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#clientList li {
+    margin-bottom: 5px;
+}
+
+.sendBtn {
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#popup {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto; /* Add this line to center the element */
+    display: none;
+}
+
+.buttonContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    margin: 0 5px;
+}
